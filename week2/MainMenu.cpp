@@ -5,13 +5,8 @@
 
 using namespace std;
 
-int getRandomTickets(int maxSeats) {
-    return rand() % maxSeats + 1; // Generates a random number between 1 and maxSeats
-}
-
 int main() {
     ElectricMountainRailway emr;
-    srand(time(0)); // Seed for random number generation
 
     int choice, trainIndex, numTickets;
     const string trainTimes[8] = {"09:00 to the mountain", "11:00 to the mountain", "13:00 to the mountain", "15:00 to the mountain", 
