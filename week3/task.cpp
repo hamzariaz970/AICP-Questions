@@ -5,6 +5,11 @@ using namespace std;
 const int SLAB_COUNT = 3;
 const int SLAB_ENTRIES = 3;
 
+// Function prototypes
+void costSlab1(int matrix[SLAB_COUNT][SLAB_ENTRIES]);
+void costSlab2(int matrix[SLAB_COUNT][SLAB_ENTRIES]);
+void costSlab3(int matrix[SLAB_COUNT][SLAB_ENTRIES]);
+int calculateBill(int units, int rate);
 
 int main() {
     // Student ID and Matrix data
